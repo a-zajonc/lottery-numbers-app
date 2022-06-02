@@ -1,0 +1,35 @@
+.bodyPage {
+  background-color: gray;
+}
+
+.header {
+  background-color:rgb(207, 207, 207);
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0
+}
+
+.randomDiv {
+  padding: 10px;
+  
+}
+
+.balls {
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: inset;
+}
+
+.div{
+  display: grid;
+  grid-template-columns: 30px 30px 30px;
+  grid-template-rows: 2fr 100px;
+  grid-column-gap: 16px;
+  align-items: center;
+}
+
+.headline {
+  font-size: xx-large;
+}
