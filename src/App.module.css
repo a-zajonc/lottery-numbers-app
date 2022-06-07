@@ -11,7 +11,8 @@
 
 .randomDiv {
   padding: 10px;
-  
+  display: grid;
+  justify-content: center;
 }
 
 .balls {
