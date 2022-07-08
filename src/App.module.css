@@ -1,3 +1,7 @@
+.bodyPage {
+  background-color: gray;
+}
+
 .header {
   background-color:rgb(207, 207, 207);
   text-align: center;
@@ -9,7 +13,15 @@
   padding: 10px;
   display: grid;
   justify-content: center;
-  background-color: gainsboro;
+}
+
+.balls {
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: inset;
+  text-align: center;
 }
 
 .div{
@@ -22,13 +34,4 @@
 
 .headline {
   font-size: xx-large;
-}
-
-.balls {
-  background-color: yellow;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  box-shadow: inset;
-  text-align: center;
 }
