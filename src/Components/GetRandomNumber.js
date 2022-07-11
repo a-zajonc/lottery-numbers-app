@@ -9,4 +9,3 @@ export function getRandomNumber(min, max, array) {
     }
     return random
 }
-
